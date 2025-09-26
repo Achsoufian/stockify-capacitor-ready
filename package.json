@@ -1,0 +1,18 @@
+{
+  "name": "stockify-capacitor",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Capacitor Android wrapper for Stockify soufian (loads Netlify site)",
+  "license": "MIT",
+  "scripts": {
+    "cap:init": "cap init \"Stockify soufian\" \"com.soufian.stockify\" --web-dir=dist",
+    "cap:add:android": "cap add android",
+    "cap:sync": "cap sync android"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.2"
+  },
+  "dependencies": {
+    "@capacitor/core": "^6.1.2"
+  }
+}
